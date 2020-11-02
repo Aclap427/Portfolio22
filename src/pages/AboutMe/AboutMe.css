@@ -1,0 +1,12 @@
+#about {
+    background-color: rgba(19, 17, 17, 0.938);
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+    margin-left: 25%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
