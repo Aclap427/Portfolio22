@@ -9,8 +9,12 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
+    border: solid thin rgb(197, 105, 105);
+
 }
 
 .oLink {
     color: white;
+    line-height: 25px;
 }

@@ -1,0 +1,30 @@
+#tech {
+    background-color: rgba(19, 17, 17, 0.938);
+    width: 20%;
+    margin-top: 69px;
+    margin-right: 0;
+    padding-bottom: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    border: solid thin rgb(197, 105, 105);
+  
+   
+}
+#techList {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 30px;
+    list-style-type: none;
+   
+    
+}
+
+.list {
+    color: rgb(214, 140, 140);
+}
+
+.mern {
+    color: rgb(199, 72, 72);
+}

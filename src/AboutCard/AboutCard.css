@@ -1,0 +1,30 @@
+#about {
+    background-color: rgba(19, 17, 17, 0.938);
+    width: 50%;
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 12%;
+    margin-left: 15%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: solid thin rgb(197, 105, 105);
+}
+
+.oLink{
+    justify-content: space-evenly;
+    
+}
+
+.oLink:hover {
+    color: rgb(245, 208, 208);
+    text-decoration: underline;
+}
+
+
+#text {
+    color: rgb(197, 120, 120);
+}

@@ -7,9 +7,9 @@ function NavBar() {
     return (
         <div id="nav">
             <ul>
-                <li><Link to='/AboutMe'>About Me</Link> | </li>
-                <li><Link to='/Projects'>&nbsp; Projects</Link> | </li>
-                <li><Link to='/Contact'>&nbsp; Contact</Link></li>
+                <li className="navLink"><Link to='/AboutMe'>About Me</Link> | </li>
+                <li className="navLink"><Link to='/Projects'>&nbsp; Projects</Link> | </li>
+                <li className="navLink"><Link to='/Contact'>&nbsp; Contact</Link></li>
             </ul>
         </div>
     )

@@ -5,7 +5,8 @@ import './Footer.css';
 function Footer() {
     return (
         <div id="footer">
-            <p>Copyright Amanda Claproth</p>
+
+            <p>-Portfolio made using React-</p>
                 
         </div>
     )

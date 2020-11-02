@@ -3,14 +3,15 @@ ul {
     display: flex;
 }
 
-li {
+.navLink{
     color: black;
     list-style-type: none;
 
 }
 
-li:hover {
+.navLink:hover {
     text-decoration: underline;
+  
 
 }
 
