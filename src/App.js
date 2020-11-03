@@ -7,6 +7,8 @@ import AboutMe from './pages/AboutMe/AboutMe';
 import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
 import Project2 from './pages/Projects/Project2/Project2';
+import Project3 from './pages/Projects/Project3/Project3';
+import Project4 from './pages/Projects/Project4/Project4';
 import Main from './pages/Main/Main';
 
 function App() {
@@ -35,7 +37,13 @@ function App() {
             <Project2 />
           )} />
 
-          
+          <Route exact path="/Project3" render={() => (
+            <Project3 />
+          )} />
+
+          <Route exact path="/Project4" render={() => (
+            <Project4 />
+          )} />
 
           <Route exact path="/Contact" render={() => (
             <Contact />
