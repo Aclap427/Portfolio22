@@ -6,6 +6,7 @@ import './App.css';
 import AboutMe from './pages/AboutMe/AboutMe';
 import Contact from './pages/Contact/Contact';
 import Projects from './pages/Projects/Projects';
+import Project2 from './pages/Projects/Project2/Project2';
 import Main from './pages/Main/Main';
 
 function App() {
@@ -29,6 +30,12 @@ function App() {
           <Route exact path="/Projects" render={() => (
             <Projects /> 
           )} />
+
+          <Route exact path="/Project2" render={() => (
+            <Project2 />
+          )} />
+
+          
 
           <Route exact path="/Contact" render={() => (
             <Contact />

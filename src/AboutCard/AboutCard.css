@@ -16,6 +16,8 @@
 
 .oLink{
     justify-content: space-evenly;
+    font-family: 'Quicksand', sans-serif;
+
     
 }
 
@@ -27,4 +29,6 @@
 
 #text {
     color: rgb(197, 120, 120);
+    font-family: 'Quicksand', sans-serif;
+
 }
