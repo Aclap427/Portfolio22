@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div id="footer">
 
-            <p>-Portfolio made using React-</p>
+            <p id="footer2">-Portfolio made using React-</p>
                 
         </div>
     )
