@@ -9,7 +9,7 @@ function Main() {
                 <p> Welcome and thanks for checking out my portfolio! <br />
                 Click through the navigation above and to the right to learn more. <br />
                 </p>
-                <img src="https://i.imgur.com/kIQBOxX.jpg" width="40%" height="40%" className="photo"></img>
+                <img src="https://i.imgur.com/TYwQLg1.jpg" width="40%" height="40%" className="photo"></img>
             </div>
         </>
     );
