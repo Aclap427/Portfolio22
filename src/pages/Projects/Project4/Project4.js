@@ -25,15 +25,15 @@ class Project4 extends Component {
         return (
             <div id="pro4">
                 <p id="click">-Click on image to toggle-</p>
-                <img style={{ width: '60%', height: '270px', alignSelf: 'center', marginTop: '5%' }} src={images[imageName]} onClick={this.toggleImage} /> <br />
-                <h6> Homeschool Record Keeper </h6> <br />
-                <p>-Created using HTML, CSS, MongoDB/Mongoose, Express, React and Node- <br />
+                <img className="Img" style={{ alignSelf: 'center', marginTop: '5%' }} src={images[imageName]} onClick={this.toggleImage} /> <br />
+                <h6 className="gameh6"> Homeschool Record Keeper </h6> <br />
+                <p className="gameP">-Created using HTML, CSS, MongoDB/Mongoose, Express, React and Node- <br />
                  An easy way to log your students daily lessons and to keep track of their progress. <br/>
                     <a href="https://project4-recordkeeper.herokuapp.com/" class="olink" target="_blank">Check out the site </a> &nbsp; &nbsp; &nbsp; | &nbsp;
                     &nbsp; &nbsp;
                     <a href="https://github.com/Aclap427/project4" class="olink" target="_blank">Link to GitHub</a>
                 </p>
-                <button id="toggleBack"><Link to='/Project3' style={{ color: 'white' }}> Prev </Link></button>
+                <button className="toggleBack"><Link to='/Project3' style={{ color: 'white' }}> Prev </Link></button>
                 
             </div>
         );

@@ -7,3 +7,14 @@ p {
     font-family: 'Quicksand', sans-serif;
 
 }
+
+
+@media only screen and (max-width: 580px) {
+
+#aboutContainer {
+    display: flex;
+    flex-direction: column;
+}    
+    
+  
+}

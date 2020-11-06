@@ -49,3 +49,62 @@ button {
     font-family: 'Quicksand', sans-serif;
 
 }
+
+.Img {
+    height: 60%;
+    width: 60%;
+}
+
+
+@media only screen and (min-width: 1420px) {
+  .gameP {
+      font-size: 18px;
+ 
+  }
+
+  .gameh6 {
+      font-size: 22px;
+  }
+
+  #click {
+      font-size: 18px;
+  }
+
+  
+ 
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+#toggle {
+    font-size: 15px;
+    top: 30%;
+ }
+
+.toggleBack {
+    color:white;
+    font-size: 15px;
+    position: absolute;
+    left: 2%;
+    top: 30%;
+}
+
+.gameh6 {
+    font-size: 20px;
+    margin-top:20px;
+}
+
+
+ 
+#pro2 {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20%;
+}
+
+.olink {
+    display: flex;
+    flex-direction: column;
+}
+}

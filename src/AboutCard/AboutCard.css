@@ -32,3 +32,83 @@
     font-family: 'Quicksand', sans-serif;
 
 }
+
+@media only screen and (min-width: 1420px) {
+  #about {
+    height: 100%;
+    width: 50%;
+}
+
+  #text {
+      font-size: 25px;
+      line-height: 30px;
+      padding: 15px;
+  }
+
+  #abouth3 {
+      font-size: 40px;
+  }
+
+  .oLink {
+      font-size: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 1420px) {
+ #about {
+    height: 100%;
+    width: 50%;
+    margin-top: 10%;
+}
+
+  #text {
+      font-size: 18px;
+      line-height: 30px;
+      padding: 10px;
+     
+  }
+
+  #abouth3 {
+      font-size: 30px;
+      margin-bottom: 0;
+  }
+
+  .oLink {
+      font-size: 20px;
+    
+  }
+
+ 
+
+}
+
+@media only screen and (max-width: 800px) {
+    #text {
+      font-size: 18px;
+  }
+
+  #abouth3 {
+      font-size: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 580px) {
+  #about {
+      margin-top: 15%;
+      margin-left: 20%;
+  }
+    
+    #text {
+      font-size: 15px;
+  }
+
+  #abouth3 {
+      font-size: 25px;
+  }
+
+  .oLink {
+      font-size: 15px;
+  }
+}
