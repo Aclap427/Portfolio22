@@ -36,7 +36,7 @@ p {
     position: relative;
 }
 
-#toggleBack {
+.toggleBack {
     color:white;
     font-size: 20px;
     position: absolute;

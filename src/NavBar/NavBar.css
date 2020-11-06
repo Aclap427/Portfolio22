@@ -31,3 +31,14 @@ a {
 
 
 
+
+@media only screen and (max-width: 580px) {
+  #nav {
+      position: fixed;
+      margin-left: 0;
+      top: 5%;
+      margin-right: 27%;
+  }
+    
+
+}
