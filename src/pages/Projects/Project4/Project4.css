@@ -109,3 +109,27 @@ button {
     flex-direction: column;
 }
 }
+
+@media only screen and (max-width: 580px) {
+
+  #pro4 {
+      width: 85%;
+      margin-left: 5%;
+      margin-top: 35%;
+  }    
+    .gameh6 {
+        font-size: 15px;
+    }
+   #toggle {
+     font-size: 12px;
+     top: 25%;
+ }
+
+ .toggleBack {
+    color:white;
+    font-size: 12px;
+    position: absolute;
+    left: 2%;
+    top: 25%;
+}
+}

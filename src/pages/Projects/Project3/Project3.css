@@ -105,3 +105,19 @@ button {
     flex-direction: column;
 }
 }
+
+@media only screen and (max-width: 580px) {
+
+  #pro3 {
+      width: 85%;
+      margin-left: 5%;
+      margin-top: 35%;
+  }    
+    
+  .gameh6 {
+        font-size: 15px;
+    }
+    .gameP {
+        font-size: 15px;
+    }
+}

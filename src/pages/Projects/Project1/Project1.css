@@ -120,3 +120,16 @@ button {
     flex-direction: column;
 }
 }
+
+@media only screen and (max-width: 580px) {
+
+  #pro1 {
+      width: 85%;
+      margin-left: 5%;
+      margin-top: 35%;
+  }    
+    .gameh6 {
+        font-size: 15px;
+    }
+  
+}
