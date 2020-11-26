@@ -9,11 +9,14 @@ function TechCard() {
               <ul id="techList">
                 <li className="list">HTML</li>
                 <li className="list">CSS</li>
+                <li className="list">SASS</li>
                 <li className="list">JavaScript</li>
+                <li className="list">RESTful API</li>
                 <li className="mern">MongoDB/Mongoose</li>
                 <li className="mern">Express</li>
                 <li className="mern">React</li>
                 <li className="mern">Node</li>
+                <li className="list">WordPress</li>
                 <li className="list">PostGresQL</li>
                 <li className="list">Python</li>
                 <li className="list">Django</li>
