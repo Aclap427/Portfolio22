@@ -25,12 +25,12 @@ class Project1 extends Component {
         return (
             <div id="pro1">
                 <p id="click">-Click on image to toggle-</p>
-                <img className="Img"style={{  alignSelf: 'center', marginTop: '5%' }} src={images[imageName]} onClick={this.toggleImage} /> <br />
+                <img className="Img"style={{  alignSelf: 'center', marginTop: '5%' }} alt="game" src={images[imageName]} onClick={this.toggleImage} /> <br />
                 <h6 className="gameh6"> 90's Nostalgia Memory Game</h6> <br />
                 <p className="gameP">-Built using HTML, CSS & JavaScript- <br />
                 Find all 10 matches before the timer runs out! <br />
-                    <a href="https://aclap427.github.io/Memory/" class="olink" target="_blank">Play and Remember</a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;
-                <a href="https://github.com/Aclap427/Memory" class="olink" target="_blank">Link to GitHub</a><br /><br />
+                    <a href="https://aclap427.github.io/Memory/" class="olink" target="_blank" rel="noreferrer">Play and Remember</a> &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;
+                <a href="https://github.com/Aclap427/Memory" class="olink" target="_blank" rel="noreferrer">Link to GitHub</a><br /><br />
                 </p>
                 <button id="toggle"><Link to='/Project2'style={{color:'white'}}> Next </Link></button>
             </div>

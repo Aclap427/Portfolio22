@@ -3,7 +3,7 @@
     width: 40%;
     height: 100%;
     text-align: center;
-    color: white;
+    color: rgb(38, 35, 223);
     margin-top: 15%;
     margin-left: 30%;
     padding: 20px;
@@ -15,7 +15,7 @@
 }
 
 .oLink {
-    color: white;
+    color: rgb(206, 44, 44);
     line-height: 25px;
 }
 

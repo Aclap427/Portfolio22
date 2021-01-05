@@ -5,9 +5,9 @@
     margin-right: 0;
     padding-bottom: 100px;
     text-align: center;
-    color: white;
+    color: rgb(236, 76, 71);
     border-radius: 5px;
-    border: solid thin rgb(197, 105, 105);
+    border: solid thin rgb(149, 149, 153);
   
    
 }
@@ -24,11 +24,11 @@
 }
 
 .list {
-    color: rgb(214, 140, 140);
+    color: rgb(60, 72, 243);
 }
 
 .mern {
-    color: rgb(199, 72, 72);
+    color: rgb(199, 180, 72);
 }
 
 
