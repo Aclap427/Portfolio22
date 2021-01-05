@@ -1,17 +1,47 @@
 import React from 'react';
 import './Main.css';
+import { Link } from 'react-router-dom';
+
 
 function Main() {
+
     return (
-        <>
-            <div id="main">
-                <h3>H E L L O</h3> <br />
-                <p id="mainP"> Welcome and thanks for checking out my portfolio! 
-                Click through the navigation above and to the right to learn more. <br />
-                </p>
-                <img src="https://i.imgur.com/TYwQLg1.jpg" width="40%" height="40%" className="photo"></img>
+        <div class="main">
+            <div class="slide-up">
+                <div class="inner">
+                <img id="slidingPhoto" src="https://i.imgur.com/Mdw7y1C.jpg?2" alt="image sliding up"></img><br/>
+                </div>
             </div>
-        </>
+            <p class="line-1 anim-typewriter">Hello, I am Amanda, welcome to my portfolio.</p>
+            
+            <div id="navCircles">
+                
+                <div className="circles">
+                    <Link to="/AboutMe">
+                        <h5 className="overlayLink"><br/>About<br/>Me</h5>
+                        <img className="navCirclePhotos" src="https://i.imgur.com/LUPuGPu.jpg"></img>
+                    </Link>
+                </div>
+
+                <div className="circles">
+                    <Link to="/Projects">
+                        <h5 className="overlayLink"><br/>My<br/>Projects</h5>
+                        <img className="navCirclePhotos" src="https://i.imgur.com/a5I4jsR.jpg?1"></img>
+                    </Link>
+                </div>
+                
+                <div className="circles">
+                    <Link to="/Contact">
+                        <h5 className="overlayLink"><br/>Contact<br/>Me</h5>
+                        <img className="navCirclePhotos" src="https://i.imgur.com/SbZBPzT.jpg?1"></img>
+                    </Link>
+                </div>
+            </div>
+
+           
+         
+
+        </div>
     );
 }
 

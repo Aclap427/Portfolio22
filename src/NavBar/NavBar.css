@@ -1,48 +1,49 @@
-ul {
-    color: black;
-    display: flex;
-}
-
-.navLink{
-    color: black;
-    list-style-type: none;
-    font-family: 'Quicksand', sans-serif;
-
-
-}
-
-.navLink:hover {
-    text-decoration: underline;
-  
-
-}
-
 #nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    padding: 8px;
+    position: relative;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
-
-
-
-
-@media only screen and (max-width: 580px) {
-  #nav {
-      display: flex;
-      flex-direction: column;
-      position: fixed;
-      top: 45px;
-      left: 10;
-  }
-  .navLink {
-      font-size: 15px;
-  }
+.navBtn {
+    width: 3vw;
+    height: 4vh;
+    background: none; 
+    border-radius: 5px;  
+    position: absolute;
+    right: 60px;
+    top: -70px;
     
+}
 
+
+
+.dropdown-content {
+    background-color: rgba(9, 34, 102, 0.938);
+    border-radius: 10px;
+    position: absolute;
+    right: 4%;
+    top: -70px;
+    font-size: 3vh;
+    display: none;
+    min-width: 120px;
+    padding: 12px 16px;
+    z-index: 1;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: rgb(219, 109, 109);
+}
+
+.link {
+    color: rgb(188, 199, 37);
+}
+
+.link:hover {
+    color: rgb(168, 84, 109);
+}
+
+@media only screen and (max-width: 600px) {
+  .navBtn {
+    top: -40px;
+  }
 }

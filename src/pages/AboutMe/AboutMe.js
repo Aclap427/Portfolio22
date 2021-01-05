@@ -5,12 +5,16 @@ import TechCard from '../../TechCard/TechCard';
 
 
 
+
 function AboutMe() {
     return (
+        <>
         <div id="aboutContainer">
-        <AboutCard />
-        <TechCard />
+            <AboutCard />
+            <TechCard /> 
         </div>
+        
+        </>
     )
 }
 

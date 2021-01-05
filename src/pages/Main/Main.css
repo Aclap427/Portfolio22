@@ -1,82 +1,90 @@
-#main {
+#slidingPhoto {
+  border-radius: 20px;
+}
 
-    background-color: rgba(19, 16, 19, 0.945);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    
-    width: 40%;
-    height: 100%;
-  
+div.slide-up {
+  height:300px;
+  overflow:hidden;
+  border-radius: 20px;
+}
+div.slide-up div.inner {
+  animation: slide-up 3s;
+  margin-top:10%;
+  text-align: center;
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 90%;
+  }
+
+  to {
     margin-top: 10%;
+  }
+}
+
+.line-1{
+    width: 24em;
+    padding-top: 100px;
+    margin: 0 auto;
+    font-size: 180%;
     text-align: center;
-    margin-left: 30%;
-    border-radius: 5px;
-    border: solid thin rgb(197, 105, 105);
-    
-
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+    color: rgb(134, 134, 33);   
 }
 
-.photo {
-    align-self: center;
-    margin-bottom: 20px;
-
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 3s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 24em;}
 }
 
-@media only screen and (min-width: 1420px) {
-  #main {
-    height: 100%;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 8%;
+#navCircles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-  #mainP {
-      font-size: 20px;
-      padding: 5px 50px;
-  }
-
-  .photo {
-      margin-bottom: 30px;
-  }
- 
-
+.navCirclePhotos {
+  width: 100px;
+  border-radius: 50%;
+  padding: 20px;
+  z-index: -1;
 }
 
-@media only screen and (max-width: 1420px) {
-  #main {
-    height: 100%;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 15%;
-    
+
+
+.circles {
+  display: flex;
+  position: relative;
 }
 
-#mainP {
-    font-size: 18px;
+.overlayLink {
+  z-index: 1;
+  position: absolute;
+  margin: auto;
+  
+  left: 0;
+  right: 0;
+  top: 20px;
+  width: 100px;
+  height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  color: transparent;
+  font-size: 19px;
+  height: 100px;
 }
 
- 
-
-}
-
-@media only screen and (max-width: 580px) {
-
-  #main {
-    height: 100%;
-    width: 70%;
-    margin-left: 15%;
-    margin-top:30%;
-}
-
-  #mainP {
-      font-size: 15px;
-      padding: 5px 50px;
-  }
-
-  .photo {
-      margin-bottom: 30px;
-  }
-    
+.overlayLink:hover {
+  background-color: rgba(0, 0, 0, 0.76);
+  color: rgb(231, 81, 81);
   
 }
