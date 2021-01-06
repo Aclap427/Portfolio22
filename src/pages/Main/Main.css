@@ -1,5 +1,8 @@
 #slidingPhoto {
+  width: 90%;
   border-radius: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 div.slide-up {
@@ -49,6 +52,8 @@ div.slide-up div.inner {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 60%;
+  margin: auto;
 }
 
 .navCirclePhotos {
@@ -69,7 +74,6 @@ div.slide-up div.inner {
   z-index: 1;
   position: absolute;
   margin: auto;
-  
   left: 0;
   right: 0;
   top: 20px;
@@ -90,3 +94,144 @@ div.slide-up div.inner {
   color: rgb(231, 81, 81);
   
 }
+
+@media only screen and (min-width: 300px) {
+
+
+  div.slide-up {
+  height:150px;
+}
+
+.line-1{
+    font-size: 85%;   
+}
+
+.navCirclePhotos {
+  width: 70px;
+}
+
+.overlayLink {
+  width: 75px;
+  height: 70px;
+  font-size: 16px;
+  height: 70px;
+
+}
+}
+
+@media only screen and (min-width: 460px) {
+    div.slide-up {
+  height:180px;
+}
+
+.line-1{
+    font-size: 110%;   
+}
+
+}
+@media only screen and (min-width: 550px) {
+    div.slide-up {
+  height:220px;
+}
+.line-1{
+    font-size: 120%;   
+}
+.navCirclePhotos {
+  width: 90px;
+}
+
+.overlayLink {
+  width: 95px;
+  height: 90px;
+  font-size: 16px;
+  height: 90px;
+
+}
+}
+
+@media only screen and (min-width: 720px) {
+    div.slide-up {
+  height:280px;
+}
+.line-1{
+    font-size: 140%;   
+}
+.navCirclePhotos {
+  width: 100px;
+}
+
+.overlayLink {
+  width: 105px;
+  height: 100px;
+  font-size: 16px;
+  height: 100px;
+
+}
+}
+
+@media only screen and (min-width: 870px) {
+ 
+#slidingPhoto {
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.line-1{
+    font-size: 150%;   
+}
+}
+
+@media only screen and (min-width: 1050px) {
+
+#slidingPhoto {
+  width: 60%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.line-1{
+    font-size: 160%;   
+}
+}
+
+@media only screen and (min-width: 1200px) {
+    div.slide-up {
+  height:320px;
+}
+.line-1{
+    font-size: 170%;   
+}
+}
+
+@media only screen and (min-width: 1400px) {
+    div.slide-up {
+  height:360px;
+}
+#slidingPhoto {
+  width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+}
+
+@media only screen and (min-width: 1600px) {
+    div.slide-up {
+  height:380px;
+}
+.line-1{
+    font-size: 180%;   
+}
+}
+
+@media only screen and (min-width: 1700px) {
+
+   div.slide-up {
+  height:400px;
+}
+}
+@media only screen and (min-width: 1850px) {
+
+   div.slide-up {
+  height:420px;
+}
+}
+
