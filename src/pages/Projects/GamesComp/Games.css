@@ -1,0 +1,77 @@
+#gamesContainer {
+    background-color: rgb(29, 29, 32);
+    color: yellow;
+    width: 400px;
+    height: 400px; 
+    border-radius: 10px;
+    border: medium solid rgba(153, 153, 54, 0.671);
+    
+}
+
+#gamesContainer:hover {
+    background-color: rgb(7, 2, 85);
+}
+
+#gamesH1 {
+  font-size: 80px;
+  color: rgb(243, 222, 102);
+  text-align: center;
+  text-shadow: 0 0 5px rgb(246, 246, 248), 0 0 10px #fff, 0 0 15px #f50e06, 0 0 20px #e60000, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1700px) {
+
+  #gamesContainer {
+    width: 700px;
+    height: 700px; 
+}
+
+#gamesH1 {
+  font-size: 120px;
+  padding: 5%;
+}
+}
+
+@media only screen and (min-width: 2300px) {
+
+  #gamesContainer {
+    width: 900px;
+    height: 900px; 
+}
+#gamesH1 {
+  font-size: 150px;
+  padding: 5%;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  #gamesContainer {
+    width: 300px;
+    height: 300px; 
+    margin-top: -80px;
+}
+#gamesH1 {
+  font-size: 60px;
+}
+
+}
+
+@media only screen and (max-width: 922px) {
+
+  #gamesContainer {
+    width: 200px;
+    height: 200px; 
+    margin-top: -80px;
+}
+#gamesH1 {
+  font-size: 40px;
+}
+
+}

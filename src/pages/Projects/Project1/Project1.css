@@ -1,64 +1,58 @@
-h6 {
+#gameTitle {
+    font-size: 30px;
+    color: rgb(226, 97, 97);
+    margin-top: 95px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.gameH6 {
     font-size: 15px;
     margin-bottom: 0;
     margin-top: 0;
 }
 
-p {
+.gameP {
     margin-top: 0;
     font-size: 14px;
-    color: rgb(194, 156, 162);
+    color: rgb(170, 168, 56);
 }
 
-.olink {
-    color: rgb(160, 72, 72);
+.oLink {
+    color: rgb(223, 75, 75);
 }
 
-.olink:hover {
-    color: rgb(226, 149, 149);
+.oLink:hover {
+    color: rgb(15, 32, 179);
     text-decoration: underline;
 }
 
-#pro1 {
+#pro {
     background-color: rgba(19, 16, 19, 0.945);
-    color: white;
+    color: rgb(197, 52, 52);
     display: flex;
     flex-direction: column;
     padding: 10px;
     width: 50%;
     height: 100%;
-
-    margin-top: 10%;
     text-align: center;
     margin-left: 25%;
     border-radius: 5px;
-    border: solid thin rgb(197, 105, 105);
+    border: solid thin rgb(179, 177, 62);
     position: relative;
+    margin-top: 80px;
+}
+
+
+
+.Img {
+    height: 60%;
+    width: 60%;
 }
 
 #click {
-    margin-bottom: 0;
-    margin-top: 10px;
-   
-}
-
-#toggle {
-    color:white;
-    font-size: 20px;
-    position: absolute;
-    right: 2%;
-    top: 40%;
-}
-button {
-    background-color: black;
-    border-radius: 10%;
-    font-family: 'Quicksand', sans-serif;
-
-}
-
-.Img {
-    height: 50%;
-    width: 60%;
+    color: rgb(41, 100, 226);
 }
 
 @media only screen and (min-width: 1420px) {
@@ -67,55 +61,35 @@ button {
  
   }
 
-  .gameh6 {
+  .gameH6 {
       font-size: 22px;
   }
 
   #click {
       font-size: 18px;
   }
- 
 
-}
-
-@media only screen and (max-width: 1420px) {
-  .gameP {
-      font-size: 18px;
-      padding: 20px;
- 
-  }
-
-  .gameh6 {
-      font-size: 22px;
-  }
-
-  #click {
-      font-size: 18px;
-  }
+  
  
 
 }
 
 @media only screen and (max-width: 1000px) {
 
- #toggle {
-     font-size: 15px;
-     top: 30%;
- }
-
-  .gameh6 {
-      font-size: 20px;
-  }
+.gameH6 {
+    font-size: 20px;
+    margin-top:20px;
+}
 
 
  
-  #pro1 {
-      width: 70%;
-      margin-left: 15%;
-      margin-top: 20%;
-  }
+#pro {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20%;
+}
 
-  .olink {
+.oLink {
     display: flex;
     flex-direction: column;
 }
@@ -123,13 +97,13 @@ button {
 
 @media only screen and (max-width: 580px) {
 
-  #pro1 {
+  #pro {
       width: 85%;
       margin-left: 5%;
       margin-top: 35%;
   }    
-    .gameh6 {
+    
+  .gameH6 {
         font-size: 15px;
     }
-  
 }

@@ -4,7 +4,7 @@ import './App.css';
 
 import AboutMe from './pages/AboutMe/AboutMe';
 import Contact from './pages/Contact/Contact';
-import Projects from './pages/Projects/Projects';
+import Projects from './pages/Projects/ProjectsPage';
 import Project2 from './pages/Projects/Project2/Project2';
 import Project3 from './pages/Projects/Project3/Project3';
 import Project4 from './pages/Projects/Project4/Project4';

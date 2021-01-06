@@ -4,6 +4,7 @@
     top: 0;
     width: 100%;
     height: 70px;
+    z-index: 1;
 }   
 
 h2 {
@@ -17,17 +18,59 @@ h5 {
 
 }
 
-
-@media only screen and (max-width: 580px) {
+@media only screen and (min-width: 300px) {
   #header {
-     height: 90px;
+     height: 60px;
   }
   h2 {
       font-size: 18px;
   }
 
   h5 {
+     font-size: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 580px) {
+  #header {
+     height: 90px;
+  }
+  h2 {
+      font-size: 22px;
+  }
+
+  h5 {
      font-size: 12px;
+  }
+
+}
+
+
+@media only screen and (min-width: 1700px) {
+
+ #header {
+     height: 120px;
+  }
+  h2 {
+      font-size: 36px;
+  }
+
+  h5 {
+     font-size: 21px;
+  }
+}
+
+@media only screen and (min-width: 2300px) {
+#header {
+     height: 150px;
+  }
+  h2 {
+      font-size: 36px;
+  }
+
+  h5 {
+     font-size: 21px;
   }
 
 }

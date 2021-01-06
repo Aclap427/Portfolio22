@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import './Project4.css';
-import { Link } from 'react-router-dom';
-
 
 const images = {
     front: "https://i.imgur.com/rSeWcfx.png?1",
@@ -23,17 +20,17 @@ class Project4 extends Component {
     render() {
         const imageName = this.getImageName();
         return (
-            <div id="pro4">
+            <div id="pro">
                 <p id="click">-Click on image to toggle-</p>
                 <img className="Img" style={{ alignSelf: 'center', marginTop: '5%' }} alt ="game" src={images[imageName]} onClick={this.toggleImage} /> <br />
-                <h6 className="gameh6"> Homeschool Record Keeper </h6> <br />
+                <h6 className="gameH6"> Homeschool Record Keeper </h6> <br />
                 <p className="gameP">-Created using HTML, CSS, MongoDB/Mongoose, Express, React and Node- <br />
                  An easy way to log your students daily lessons and to keep track of their progress. <br/>
-                    <a href="https://project4-recordkeeper.herokuapp.com/" class="olink" target="_blank" rel="noreferrer">Check out the site </a> &nbsp; &nbsp; &nbsp; | &nbsp;
+                    <a href="https://project4-recordkeeper.herokuapp.com/" class="oLink" target="_blank" rel="noreferrer">Check out the site </a> &nbsp; &nbsp; &nbsp; | &nbsp;
                     &nbsp; &nbsp;
-                    <a href="https://github.com/Aclap427/project4" class="olink" target="_blank" rel="noreferrer">Link to GitHub</a>
+                    <a href="https://github.com/Aclap427/project4" class="oLink" target="_blank" rel="noreferrer">Link to GitHub</a>
                 </p>
-                <button className="toggleBack"><Link to='/Project3' style={{ color: 'white' }}> Prev </Link></button>
+                
                 
             </div>
         );
