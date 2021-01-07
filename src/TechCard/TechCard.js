@@ -4,25 +4,27 @@ import './TechCard.css';
 function TechCard() {
     return (
         <div id="tech">
-            <h3> I have experience with: </h3>
+            <h3 id="techH3"> I have experience with: </h3>
             <hr />
-              <ul id="techList">
-                <li className="list">HTML</li>
-                <li className="list">CSS</li>
-                <li className="list">SASS</li>
-                <li className="list">JavaScript</li>
-                <li className="list">RESTful API</li>
-                <li className="mern">MongoDB/Mongoose</li>
-                <li className="mern">Express</li>
-                <li className="mern">React</li>
-                <li className="mern">Node</li>
-                <li className="list">WordPress</li>
-                <li className="list">PostGresQL</li>
-                <li className="list">Python</li>
-                <li className="list">Django</li>
-                <li className="list">jQuery</li>
-                <li className="list">OAuth</li>
-            </ul>
+
+            <p id="techList">
+                &#8226;HTML &nbsp; 
+                &#8226;CSS &nbsp; 
+                &#8226;SASS &nbsp; 
+                &#8226;JavaScript &nbsp; 
+                &#8226;RESTful API's &nbsp; 
+                &#8226;MongoDB &nbsp; 
+                &#8226;Express &nbsp; 
+                &#8226;React &nbsp; 
+                &#8226;Node &nbsp; 
+                &#8226;Mongoose &nbsp; 
+                &#8226;PostGresQL &nbsp; 
+                &#8226;Python &nbsp; 
+                &#8226;Django &nbsp; 
+                &#8226;jQuery &nbsp; 
+                &#8226;OAuth &nbsp; 
+            </p>
+        
         </div>
     )
 }

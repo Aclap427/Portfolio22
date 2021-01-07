@@ -1,20 +1,30 @@
-#aboutContainer {
-    display: flex;
-    justify-content: space-between;
+#aboutContainer{
+    margin-top: 120px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-p {
-    font-family: 'Quicksand', sans-serif;
+#aboutCard{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+@media only screen and (max-width: 520px) {
+#aboutCard {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 }
 
-
-@media only screen and (max-width: 850px) {
-
-#aboutContainer {
-    display: flex;
-    flex-direction: column;
-}    
-     
+@media only screen and (max-width: 340px) {
+#aboutCard {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
+}

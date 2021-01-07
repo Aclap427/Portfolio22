@@ -1,69 +1,17 @@
-#tech {
-    background-color: rgba(19, 17, 17, 0.938);
-    width: 20%;
-    margin-top: 69px;
-    margin-right: 0;
-    padding-bottom: 100px;
-    text-align: center;
-    color: rgb(236, 76, 71);
-    border-radius: 5px;
-    border: solid thin rgb(149, 149, 153);
-  
-   
+#techCard{
+  color: rgb(170, 170, 44);
+  border: solid thin rgb(20, 20, 173);
+  background-color: black;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
 }
+
 #techList {
+    color: rgb(224, 66, 66);
     display: flex;
-    flex-direction: column;
-    text-align: left;
-    line-height: 30px;
-    list-style-type: none;
+    justify-content: space-around;
     font-family: 'Quicksand', sans-serif;
-
-   
-    
-}
-
-.list {
-    color: rgb(60, 72, 243);
-}
-
-.mern {
-    color: rgb(199, 180, 72);
 }
 
 
-@media only screen and (min-width: 1420px) {
-  #tech {
- 
-    height: 750px;
-    width: 20%;
-    font-size: 25px;
-    
-  }
-
-}
-
-@media only screen and (max-width: 1420px) {
-#tech {
- 
-    height: 750px;
-    width: 20%;
-    font-size: 18px;
-    
-  }
- 
-
-}
-
-
-@media only screen and (max-width: 850px) {
-
-#tech {
-    height: 100%;
-    width: 60%;
-    font-size: 15px;
-    margin-left: 20%;
-  }
-    
-  
-}

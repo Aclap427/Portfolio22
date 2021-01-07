@@ -1,24 +1,23 @@
 #about {
     background-color: rgba(19, 17, 17, 0.938);
-    width: 50%;
-    height: 100%;
     line-height: 20px;
     text-align: center;
     color: rgb(228, 55, 55);
-    margin-top: 12%;
-    margin-left: 15%;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+    padding: 40px;
     border-radius: 5px;
     border: solid thin rgb(17, 13, 206);
 }
 
-.oLink{
-    justify-content: space-evenly;
-    font-family: 'Quicksand', sans-serif;
-
+#aLinks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: rgb(211, 179, 75);
     
+}
+.oLink{
+    font-family: 'Quicksand', sans-serif; 
 }
 
 .oLink:hover {
@@ -30,11 +29,17 @@
 #text {
     color: rgb(236, 77, 77);
     font-family: 'Quicksand', sans-serif;
-
+    
 }
 
 #currentTable {
    margin: 30px auto 10px auto;
+   background-color: rgba(19, 17, 17, 0.938);
+   padding: 10px;
+   border-radius: 10px;
+   border: solid thin rgb(17, 13, 206);
+   color: rgb(211, 179, 75);
+   width: 30%;
 }
 
 th {
@@ -48,92 +53,64 @@ td {
     padding: 15px;
 }
 
-@media only screen and (min-width: 1420px) {
-  #about {
-    height: 100%;
-    width: 50%;
+#techCard {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
-  #text {
-      font-size: 25px;
-      line-height: 30px;
-      padding: 15px;
-  }
-
-  #abouth3 {
-      font-size: 40px;
-  }
-
-  .oLink {
-      font-size: 20px;
-  }
+@media only screen and (max-width: 999px) {
+.oLink{
+    font-size: 14px;  
+} 
 
 }
 
-@media only screen and (max-width: 1420px) {
- #about {
-    height: 100%;
-    width: 50%;
-    margin-top: 10%;
+@media only screen and (max-width: 805px) {
+#text {
+    font-size: 12px;
 }
 
-  #text {
-      font-size: 18px;
-      line-height: 30px;
-      padding: 10px;
-     
-  }
-
-  #abouth3 {
-      font-size: 30px;
-      margin-bottom: 0;
-  }
-
-  .oLink {
-      font-size: 20px;
-    
-  }
-
- 
-
+.oLink {
+    font-size: 12px;
 }
 
-@media only screen and (max-width: 850px) {
+#currentTable {
+   padding: 5px;
+   width: 25%;
+}
 
-  #about {
-      
-      margin: 15% auto 0 auto;
-      width: 70%;
-  }
+th {
+    font-size:10px;
+}
 
-    #text {
-      font-size: 18px;
-  }
-
-  #abouth3 {
-      font-size: 30px;
-  }
-
+td {
+    padding: 10px;
+}
 }
 
 
-@media only screen and (max-width: 580px) {
-  #about {
-      margin-top: 35%;
-      margin-left: 10%;
-      width: 80%;
-  }
-    
-    #text {
-      font-size: 15px;
-  }
-
-  #abouth3 {
-      font-size: 20px;
-  }
-
-  .oLink {
-      font-size: 15px;
-  }
+@media only screen and (max-width: 520px) {
+#currentTable img {
+   padding: 2px;
+   width: 80px;
 }
 
+th {
+    font-size:8px;
+}
+
+td {
+    padding: 2px;
+}
+
+#techCard {
+    width: 200px;
+}
+
+.oLink{
+    font-size: 10px;  
+} 
+}
