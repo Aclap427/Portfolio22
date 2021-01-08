@@ -6,6 +6,7 @@
     padding: 40px;
     border-radius: 5px;
     border: solid thin rgb(17, 13, 206);
+    margin-top: 150px;
 }
 
 #aLinks {
@@ -27,9 +28,10 @@
 
 
 #text {
-    color: rgb(236, 77, 77);
+    color: rgb(168, 156, 43);
     font-family: 'Quicksand', sans-serif;
-    
+    font-size: 18px;
+    line-height: 24px;
 }
 
 #currentTable {

@@ -8,9 +8,10 @@
 }
 
 #techList {
-    color: rgb(224, 66, 66);
+    color: rgb(238, 106, 106);
     display: flex;
     justify-content: space-around;
+    font-size: 18px;
     font-family: 'Quicksand', sans-serif;
 }
 
